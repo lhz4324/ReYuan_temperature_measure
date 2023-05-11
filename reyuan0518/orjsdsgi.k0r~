@@ -1,0 +1,84 @@
+// ACCOUNT_GGMM.cpp : 实现文件
+//
+
+#include "stdafx.h"
+#include "reyuan0518.h"
+#include "ACCOUNT_GGMM.h"
+#include "afxdialogex.h"
+#include "./mysql/mysql.h"
+
+
+#include "Quanjv.h"
+// ACCOUNT_GGMM 对话框
+
+IMPLEMENT_DYNAMIC(ACCOUNT_GGMM, CDialogEx)
+
+ACCOUNT_GGMM::ACCOUNT_GGMM(CWnd* pParent /*=NULL*/)
+	: CDialogEx(ACCOUNT_GGMM::IDD, pParent)
+	, STATIC_username_now(_T(""))
+{
+
+}
+
+ACCOUNT_GGMM::~ACCOUNT_GGMM()
+{
+}
+
+void ACCOUNT_GGMM::DoDataExchange(CDataExchange* pDX)
+{
+	CDialogEx::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_STATIC_username_now, STATIC_username_now);
+}
+
+
+BEGIN_MESSAGE_MAP(ACCOUNT_GGMM, CDialogEx)
+	ON_BN_CLICKED(1002, &ACCOUNT_GGMM::OnBnClicked1002)
+END_MESSAGE_MAP()
+
+
+// ACCOUNT_GGMM 消息处理程序
+
+
+void ACCOUNT_GGMM::OnBnClicked1002()
+{
+	// TODO:  在此添加控件通知处理程序代码
+
+}
+
+
+BOOL ACCOUNT_GGMM::OnInitDialog()
+{
+	CDialogEx::OnInitDialog();
+
+	// TODO:  在此添加额外的初始化
+
+
+		int charLen = strlen(p);
+
+		//计算多字节字符的大小，按字符计算。
+		int len = MultiByteToWideChar(CP_ACP, 0, p, charLen, NULL, 0);
+
+		//为宽字节字符数组申请空间，数组大小为按字节计算的多字节字符大小
+		TCHAR *buf = new TCHAR[len + 1];
+
+		//多字节编码转换成宽字节编码
+		MultiByteToWideChar(CP_ACP, 0, p, charLen, buf, len);
+
+		buf[len] = '\0'; //添加字符串结尾，注意不是len+1
+
+		//将TCHAR数组转换为CString
+
+		username_now.Append(buf);
+
+		//删除缓冲区
+		delete[]buf;
+
+
+	CStatic* m_pStatic2 = (CStatic*)GetDlgItem(IDC_STATIC_username_now);//static控件先添加一个变量，改一下ID就行
+	m_pStatic2->SetWindowText(username_now);
+
+	//STATIC_username_now.
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// 异常:  OCX 属性页应返回 FALSE
+}

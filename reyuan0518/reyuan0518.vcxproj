@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ABBF24B4-EC87-486C-BBF5-1F9952FD99B8}</ProjectGuid>
+    <RootNamespace>reyuan0518</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>./lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>./lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libmysql.lib;CyAPI.lib;Setupapi.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./lib;./;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACCOUNT_GGMM.h" />
+    <ClInclude Include="ACCOUNT_ZHGL.h" />
+    <ClInclude Include="ACCOUNT_ZHGL_TJZH.h" />
+    <ClInclude Include="ACCOUNT_ZHGL_XGZH.h" />
+    <ClInclude Include="chart_control\ChartAxis.h" />
+    <ClInclude Include="chart_control\ChartAxisLabel.h" />
+    <ClInclude Include="chart_control\ChartBalloonLabel.h" />
+    <ClInclude Include="chart_control\ChartBarSerie.h" />
+    <ClInclude Include="chart_control\ChartCandlestickSerie.h" />
+    <ClInclude Include="chart_control\ChartCrossHairCursor.h" />
+    <ClInclude Include="chart_control\ChartCtrl.h" />
+    <ClInclude Include="chart_control\ChartCursor.h" />
+    <ClInclude Include="chart_control\ChartDateTimeAxis.h" />
+    <ClInclude Include="chart_control\ChartDragLineCursor.h" />
+    <ClInclude Include="chart_control\ChartFont.h" />
+    <ClInclude Include="chart_control\ChartGanttSerie.h" />
+    <ClInclude Include="chart_control\ChartGradient.h" />
+    <ClInclude Include="chart_control\ChartGrid.h" />
+    <ClInclude Include="chart_control\ChartLabel.h" />
+    <ClInclude Include="chart_control\ChartLegend.h" />
+    <ClInclude Include="chart_control\ChartLineSerie.h" />
+    <ClInclude Include="chart_control\ChartLogarithmicAxis.h" />
+    <ClInclude Include="chart_control\ChartMouseListener.h" />
+    <ClInclude Include="chart_control\ChartPointsArray.h" />
+    <ClInclude Include="chart_control\ChartPointsSerie.h" />
+    <ClInclude Include="chart_control\ChartScrollBar.h" />
+    <ClInclude Include="chart_control\ChartSerie.h" />
+    <ClInclude Include="chart_control\ChartSerieBase.h" />
+    <ClInclude Include="chart_control\ChartSeriesMouseListener.h" />
+    <ClInclude Include="chart_control\ChartStandardAxis.h" />
+    <ClInclude Include="chart_control\ChartString.h" />
+    <ClInclude Include="chart_control\ChartSurfaceSerie.h" />
+    <ClInclude Include="chart_control\ChartTitle.h" />
+    <ClInclude Include="chart_control\ChartXYSerie.h" />
+    <ClInclude Include="chart_control\PointsOrdering.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CyAPI.h" />
+    <ClInclude Include="cyioctl.h" />
+    <ClInclude Include="DATA_CDB_RIGHT.h" />
+    <ClInclude Include="DATA_SJBF.h" />
+    <ClInclude Include="DATA_SJHF.h" />
+    <ClInclude Include="FV_CEWEN_WDCD.h" />
+    <ClInclude Include="FV_DATA_CDB.h" />
+    <ClInclude Include="FV_DATA_CDBRYSYJG.h" />
+    <ClInclude Include="FV_DATA_CDB_RIGHT.h" />
+    <ClInclude Include="FV_DATA_CKLXJT.h" />
+    <ClInclude Include="FV_DATA_GZSJSJ.h" />
+    <ClInclude Include="FV_DATA_TTBDJG.h" />
+    <ClInclude Include="FV_DATA_XTTXJG.h" />
+    <ClInclude Include="FV_POINT_BD.h" />
+    <ClInclude Include="FV_POINT_QR.h" />
+    <ClInclude Include="InfoFile.h" />
+    <ClInclude Include="instrument_self_check.h" />
+    <ClInclude Include="listbutton\HeaderCtrlCl.h" />
+    <ClInclude Include="listbutton\ListCtrlButton.h" />
+    <ClInclude Include="listbutton\ListCtrlCl.h" />
+    <ClInclude Include="listbutton\ListCtrlEdit.h" />
+    <ClInclude Include="LOGIN.h" />
+    <ClInclude Include="LOGIN_SET.h" />
+    <ClInclude Include="LOGIN_SET_CJZH.h" />
+    <ClInclude Include="LOGIN_SET_DLCL.h" />
+    <ClInclude Include="LOGIN_SET_TTSZ.h" />
+    <ClInclude Include="LOGIN_SET_ZDBF.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MyDatabase.h" />
+    <ClInclude Include="mysql\big_endian.h" />
+    <ClInclude Include="mysql\binary_log_types.h" />
+    <ClInclude Include="mysql\byte_order_generic.h" />
+    <ClInclude Include="mysql\byte_order_generic_x86.h" />
+    <ClInclude Include="mysql\decimal.h" />
+    <ClInclude Include="mysql\errmsg.h" />
+    <ClInclude Include="mysql\keycache.h" />
+    <ClInclude Include="mysql\little_endian.h" />
+    <ClInclude Include="mysql\mysql.h" />
+    <ClInclude Include="mysql\mysqld_ername.h" />
+    <ClInclude Include="mysql\mysqld_error.h" />
+    <ClInclude Include="mysql\mysql\client_authentication.h" />
+    <ClInclude Include="mysql\mysql\client_plugin.h" />
+    <ClInclude Include="mysql\mysql\com_data.h" />
+    <ClInclude Include="mysql\mysql\get_password.h" />
+    <ClInclude Include="mysql\mysql\group_replication_priv.h" />
+    <ClInclude Include="mysql\mysql\innodb_priv.h" />
+    <ClInclude Include="mysql\mysql\mysql_lex_string.h" />
+    <ClInclude Include="mysql\mysql\plugin.h" />
+    <ClInclude Include="mysql\mysql\plugin_audit.h" />
+    <ClInclude Include="mysql\mysql\plugin_auth.h" />
+    <ClInclude Include="mysql\mysql\plugin_auth_common.h" />
+    <ClInclude Include="mysql\mysql\plugin_ftparser.h" />
+    <ClInclude Include="mysql\mysql\plugin_group_replication.h" />
+    <ClInclude Include="mysql\mysql\plugin_keyring.h" />
+    <ClInclude Include="mysql\mysql\plugin_trace.h" />
+    <ClInclude Include="mysql\mysql\plugin_validate_password.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_file.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_idle.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_mdl.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_memory.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_ps.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_socket.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_sp.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_stage.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_statement.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_table.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_thread.h" />
+    <ClInclude Include="mysql\mysql\psi\mysql_transaction.h" />
+    <ClInclude Include="mysql\mysql\psi\psi.h" />
+    <ClInclude Include="mysql\mysql\psi\psi_base.h" />
+    <ClInclude Include="mysql\mysql\psi\psi_memory.h" />
+    <ClInclude Include="mysql\mysql\services.h" />
+    <ClInclude Include="mysql\mysql\service_command.h" />
+    <ClInclude Include="mysql\mysql\service_locking.h" />
+    <ClInclude Include="mysql\mysql\service_mysql_alloc.h" />
+    <ClInclude Include="mysql\mysql\service_mysql_keyring.h" />
+    <ClInclude Include="mysql\mysql\service_mysql_password_policy.h" />
+    <ClInclude Include="mysql\mysql\service_mysql_string.h" />
+    <ClInclude Include="mysql\mysql\service_my_plugin_log.h" />
+    <ClInclude Include="mysql\mysql\service_my_snprintf.h" />
+    <ClInclude Include="mysql\mysql\service_parser.h" />
+    <ClInclude Include="mysql\mysql\service_rpl_transaction_ctx.h" />
+    <ClInclude Include="mysql\mysql\service_rpl_transaction_write_set.h" />
+    <ClInclude Include="mysql\mysql\service_rules_table.h" />
+    <ClInclude Include="mysql\mysql\service_security_context.h" />
+    <ClInclude Include="mysql\mysql\service_srv_session.h" />
+    <ClInclude Include="mysql\mysql\service_srv_session_info.h" />
+    <ClInclude Include="mysql\mysql\service_ssl_wrapper.h" />
+    <ClInclude Include="mysql\mysql\service_thd_alloc.h" />
+    <ClInclude Include="mysql\mysql\service_thd_engine_lock.h" />
+    <ClInclude Include="mysql\mysql\service_thd_wait.h" />
+    <ClInclude Include="mysql\mysql\service_thread_scheduler.h" />
+    <ClInclude Include="mysql\mysql\thread_pool_priv.h" />
+    <ClInclude Include="mysql\mysql\thread_type.h" />
+    <ClInclude Include="mysql\mysql_com.h" />
+    <ClInclude Include="mysql\mysql_com_server.h" />
+    <ClInclude Include="mysql\mysql_embed.h" />
+    <ClInclude Include="mysql\mysql_time.h" />
+    <ClInclude Include="mysql\mysql_version.h" />
+    <ClInclude Include="mysql\my_alloc.h" />
+    <ClInclude Include="mysql\my_byteorder.h" />
+    <ClInclude Include="mysql\my_command.h" />
+    <ClInclude Include="mysql\my_compiler.h" />
+    <ClInclude Include="mysql\my_config.h" />
+    <ClInclude Include="mysql\my_dbug.h" />
+    <ClInclude Include="mysql\my_dir.h" />
+    <ClInclude Include="mysql\my_getopt.h" />
+    <ClInclude Include="mysql\my_global.h" />
+    <ClInclude Include="mysql\my_list.h" />
+    <ClInclude Include="mysql\my_sys.h" />
+    <ClInclude Include="mysql\my_thread.h" />
+    <ClInclude Include="mysql\my_thread_local.h" />
+    <ClInclude Include="mysql\my_xml.h" />
+    <ClInclude Include="mysql\m_ctype.h" />
+    <ClInclude Include="mysql\m_string.h" />
+    <ClInclude Include="mysql\plugin.h" />
+    <ClInclude Include="mysql\plugin_audit.h" />
+    <ClInclude Include="mysql\plugin_ftparser.h" />
+    <ClInclude Include="mysql\plugin_group_replication.h" />
+    <ClInclude Include="mysql\plugin_keyring.h" />
+    <ClInclude Include="mysql\plugin_validate_password.h" />
+    <ClInclude Include="mysql\sql_common.h" />
+    <ClInclude Include="mysql\sql_state.h" />
+    <ClInclude Include="mysql\sslopt-case.h" />
+    <ClInclude Include="mysql\sslopt-longopts.h" />
+    <ClInclude Include="mysql\sslopt-vars.h" />
+    <ClInclude Include="mysql\thr_cond.h" />
+    <ClInclude Include="mysql\thr_mutex.h" />
+    <ClInclude Include="mysql\thr_rwlock.h" />
+    <ClInclude Include="mysql\typelib.h" />
+    <ClInclude Include="m_tree_h1.h" />
+    <ClInclude Include="m_tree_h2.h" />
+    <ClInclude Include="m_tree_h3.h" />
+    <ClInclude Include="m_tree_h4.h" />
+    <ClInclude Include="m_tree_h5.h" />
+    <ClInclude Include="m_tree_h6.h" />
+    <ClInclude Include="m_tree_h6dybgrq.h" />
+    <ClInclude Include="m_tree_h6tp.h" />
+    <ClInclude Include="m_tree_h6wb.h" />
+    <ClInclude Include="m_tree_h6xd.h" />
+    <ClInclude Include="Quanjv.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="reyuan0518.h" />
+    <ClInclude Include="reyuan0518Doc.h" />
+    <ClInclude Include="reyuan0518View.h" />
+    <ClInclude Include="SET_JLGS_JT.h" />
+    <ClInclude Include="SET_JLGS_RY.h" />
+    <ClInclude Include="SET_JLGS_XT.h" />
+    <ClInclude Include="SET_SJGS.h" />
+    <ClInclude Include="SET_YL_JLGS.h" />
+    <ClInclude Include="SET_YL_JLGS_LEFT.h" />
+    <ClInclude Include="SET_YL_JLGS_RIGHT.h" />
+    <ClInclude Include="SET_YPXX.h" />
+    <ClInclude Include="SHITU_STSZ.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SYPC_XZGSP.h" />
+    <ClInclude Include="Tab_CEWEN_WDCD_SSCWQX.h" />
+    <ClInclude Include="Tab_CEWEN_WDCD_SYPC.h" />
+    <ClInclude Include="Tab_CEWEN_WDCD_YPDL.h" />
+    <ClInclude Include="Tab_DATA_CDBRYSYJG_BZ.h" />
+    <ClInclude Include="Tab_DATA_CDBRYSYJG_CXDY.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="usb100.h" />
+    <ClInclude Include="usb200.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACCOUNT_GGMM.cpp" />
+    <ClCompile Include="ACCOUNT_ZHGL.cpp" />
+    <ClCompile Include="ACCOUNT_ZHGL_TJZH.cpp" />
+    <ClCompile Include="ACCOUNT_ZHGL_XGZH.cpp" />
+    <ClCompile Include="chart_control\ChartAxis.cpp" />
+    <ClCompile Include="chart_control\ChartAxisLabel.cpp" />
+    <ClCompile Include="chart_control\ChartBarSerie.cpp" />
+    <ClCompile Include="chart_control\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="chart_control\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="chart_control\ChartCtrl.cpp" />
+    <ClCompile Include="chart_control\ChartCursor.cpp" />
+    <ClCompile Include="chart_control\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="chart_control\ChartDragLineCursor.cpp" />
+    <ClCompile Include="chart_control\ChartFont.cpp" />
+    <ClCompile Include="chart_control\ChartGanttSerie.cpp" />
+    <ClCompile Include="chart_control\ChartGradient.cpp" />
+    <ClCompile Include="chart_control\ChartGrid.cpp" />
+    <ClCompile Include="chart_control\ChartLegend.cpp" />
+    <ClCompile Include="chart_control\ChartLineSerie.cpp" />
+    <ClCompile Include="chart_control\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="chart_control\ChartPointsSerie.cpp" />
+    <ClCompile Include="chart_control\ChartScrollBar.cpp" />
+    <ClCompile Include="chart_control\ChartSerie.cpp" />
+    <ClCompile Include="chart_control\ChartStandardAxis.cpp" />
+    <ClCompile Include="chart_control\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="chart_control\ChartTitle.cpp" />
+    <ClCompile Include="chart_control\ChartXYSerie.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="DATA_CDB_RIGHT.cpp" />
+    <ClCompile Include="DATA_SJBF.cpp" />
+    <ClCompile Include="DATA_SJHF.cpp" />
+    <ClCompile Include="FV_CEWEN_WDCD.cpp" />
+    <ClCompile Include="FV_DATA_CDB.cpp" />
+    <ClCompile Include="FV_DATA_CDBRYSYJG.cpp" />
+    <ClCompile Include="FV_DATA_CDB_RIGHT.cpp" />
+    <ClCompile Include="FV_DATA_CKLXJT.cpp" />
+    <ClCompile Include="FV_DATA_GZSJSJ.cpp" />
+    <ClCompile Include="FV_DATA_TTBDJG.cpp" />
+    <ClCompile Include="FV_DATA_XTTXJG.cpp" />
+    <ClCompile Include="FV_POINT_BD.cpp" />
+    <ClCompile Include="FV_POINT_QR.cpp" />
+    <ClCompile Include="InfoFile.cpp" />
+    <ClCompile Include="instrument_self_check.cpp" />
+    <ClCompile Include="listbutton\HeaderCtrlCl.cpp" />
+    <ClCompile Include="listbutton\ListCtrlButton.cpp" />
+    <ClCompile Include="listbutton\ListCtrlCl.cpp" />
+    <ClCompile Include="listbutton\ListCtrlEdit.cpp" />
+    <ClCompile Include="LOGIN.cpp" />
+    <ClCompile Include="LOGIN_SET.cpp" />
+    <ClCompile Include="LOGIN_SET_CJZH.cpp" />
+    <ClCompile Include="LOGIN_SET_DLCL.cpp" />
+    <ClCompile Include="LOGIN_SET_TTSZ.cpp" />
+    <ClCompile Include="LOGIN_SET_ZDBF.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MyDatabase.cpp" />
+    <ClCompile Include="m_tree_h1.cpp" />
+    <ClCompile Include="m_tree_h2.cpp" />
+    <ClCompile Include="m_tree_h3.cpp" />
+    <ClCompile Include="m_tree_h4.cpp" />
+    <ClCompile Include="m_tree_h5.cpp" />
+    <ClCompile Include="m_tree_h6.cpp" />
+    <ClCompile Include="m_tree_h6dybgrq.cpp" />
+    <ClCompile Include="m_tree_h6tp.cpp" />
+    <ClCompile Include="m_tree_h6wb.cpp" />
+    <ClCompile Include="m_tree_h6xd.cpp" />
+    <ClCompile Include="Quanjv.cpp" />
+    <ClCompile Include="reyuan0518.cpp" />
+    <ClCompile Include="reyuan0518Doc.cpp" />
+    <ClCompile Include="reyuan0518View.cpp" />
+    <ClCompile Include="SET_JLGS_JT.cpp" />
+    <ClCompile Include="SET_JLGS_RY.cpp" />
+    <ClCompile Include="SET_JLGS_XT.cpp" />
+    <ClCompile Include="SET_SJGS.cpp" />
+    <ClCompile Include="SET_YL_JLGS.cpp" />
+    <ClCompile Include="SET_YL_JLGS_LEFT.cpp" />
+    <ClCompile Include="SET_YL_JLGS_RIGHT.cpp" />
+    <ClCompile Include="SET_YPXX.cpp" />
+    <ClCompile Include="SHITU_STSZ.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SYPC_XZGSP.cpp" />
+    <ClCompile Include="Tab_CEWEN_WDCD_SSCWQX.cpp" />
+    <ClCompile Include="Tab_CEWEN_WDCD_SYPC.cpp" />
+    <ClCompile Include="Tab_CEWEN_WDCD_YPDL.cpp" />
+    <ClCompile Include="Tab_DATA_CDBRYSYJG_BZ.cpp" />
+    <ClCompile Include="Tab_DATA_CDBRYSYJG_CXDY.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="reyuan0518.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chart_control\ChartBalloonLabel.inl" />
+    <None Include="chart_control\ChartLabel.inl" />
+    <None Include="chart_control\ChartPointsArray.inl" />
+    <None Include="chart_control\ChartSerieBase.inl" />
+    <None Include="mysql\mysql\client_plugin.h.pp" />
+    <None Include="mysql\mysql\plugin_audit.h.pp" />
+    <None Include="mysql\mysql\plugin_auth.h.pp" />
+    <None Include="mysql\mysql\plugin_ftparser.h.pp" />
+    <None Include="mysql\mysql\plugin_keyring.h.pp" />
+    <None Include="mysql\mysql\services.h.pp" />
+    <None Include="res\reyuan0518.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AK47.bmp" />
+    <Image Include="res\reyuan0518.ico" />
+    <Image Include="res\reyuan0518Doc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="reyuan0518.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,177 @@
+﻿  stdafx.cpp
+  ACCOUNT_GGMM.cpp
+  ACCOUNT_ZHGL.cpp
+  ACCOUNT_ZHGL_TJZH.cpp
+  ACCOUNT_ZHGL_XGZH.cpp
+  ChartAxis.cpp
+  ChartAxisLabel.cpp
+  ChartBarSerie.cpp
+  ChartCandlestickSerie.cpp
+  ChartCrossHairCursor.cpp
+  ChartCtrl.cpp
+  ChartCursor.cpp
+  ChartDateTimeAxis.cpp
+  ChartDragLineCursor.cpp
+  ChartFont.cpp
+  ChartGanttSerie.cpp
+  ChartGradient.cpp
+  ChartGrid.cpp
+  ChartLegend.cpp
+  ChartLineSerie.cpp
+  ChartLogarithmicAxis.cpp
+  正在生成代码...
+  正在编译...
+  ChartPointsSerie.cpp
+  ChartScrollBar.cpp
+  ChartSerie.cpp
+  ChartStandardAxis.cpp
+  ChartSurfaceSerie.cpp
+  ChartTitle.cpp
+  ChartXYSerie.cpp
+  ChildFrm.cpp
+  DATA_CDB_RIGHT.cpp
+  DATA_SJBF.cpp
+  DATA_SJHF.cpp
+  FV_CEWEN_WDCD.cpp
+  FV_DATA_CDB.cpp
+  FV_DATA_CDBRYSYJG.cpp
+  FV_DATA_CDB_RIGHT.cpp
+  FV_DATA_CKLXJT.cpp
+  FV_DATA_GZSJSJ.cpp
+  FV_DATA_TTBDJG.cpp
+  FV_DATA_XTTXJG.cpp
+  FV_POINT_BD.cpp
+  正在生成代码...
+  正在编译...
+  FV_POINT_QR.cpp
+  InfoFile.cpp
+  LOGIN.cpp
+  LOGIN_SET.cpp
+  LOGIN_SET_CJZH.cpp
+  LOGIN_SET_DLCL.cpp
+  LOGIN_SET_TTSZ.cpp
+  LOGIN_SET_ZDBF.cpp
+  MainFrm.cpp
+  MyDatabase.cpp
+  Quanjv.cpp
+  reyuan0518.cpp
+  reyuan0518Doc.cpp
+  reyuan0518View.cpp
+  SET_JLGS_JT.cpp
+  SET_JLGS_RY.cpp
+  SET_JLGS_XT.cpp
+  SET_SJGS.cpp
+  SET_YL_JLGS.cpp
+  SET_YL_JLGS_LEFT.cpp
+  正在生成代码...
+  正在编译...
+  SET_YL_JLGS_RIGHT.cpp
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(234): warning C4244: “初始化”: 从“DOUBLE”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(235): warning C4244: “初始化”: 从“DOUBLE”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(244): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(245): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(246): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(247): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(248): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(286): warning C4244: “初始化”: 从“DOUBLE”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(287): warning C4244: “初始化”: 从“DOUBLE”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(301): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(317): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(318): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(323): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(353): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(357): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(358): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(361): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(362): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(365): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(366): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(369): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(370): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(373): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(374): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(377): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(378): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(381): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(382): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(386): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(387): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(388): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(389): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(390): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(391): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(392): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(403): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(407): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(411): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(416): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(417): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(418): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(424): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(425): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(426): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(427): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(428): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(429): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(433): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(434): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(436): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(440): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(442): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(445): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(446): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(447): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(448): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(454): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(456): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(459): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(460): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(461): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(464): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(465): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(468): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(469): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(470): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(476): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(477): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(479): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(480): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(485): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(488): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(491): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(494): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(174): warning C4101: “tm”: 未引用的局部变量
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(169): warning C4101: “metrics”: 未引用的局部变量
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\set_yl_jlgs_right.cpp(514): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  SET_YPXX.cpp
+  SHITU_STSZ.cpp
+  Tab_CEWEN_WDCD_SSCWQX.cpp
+  Tab_CEWEN_WDCD_SYPC.cpp
+  Tab_CEWEN_WDCD_YPDL.cpp
+e:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\reyuan0518\tab_cewen_wdcd_ypdl.cpp(80): warning C4018: “<”: 有符号/无符号不匹配
+  Tab_DATA_CDBRYSYJG_BZ.cpp
+  Tab_DATA_CDBRYSYJG_CXDY.cpp
+  正在生成代码...
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_init@4
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_real_connect@32
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_query@8，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+LOGIN_SET_CJZH.obj : error LNK2001: 无法解析的外部符号 _mysql_query@8
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_query@8
+SET_YPXX.obj : error LNK2001: 无法解析的外部符号 _mysql_query@8
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_store_result@4，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+LOGIN_SET_CJZH.obj : error LNK2001: 无法解析的外部符号 _mysql_store_result@4
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_store_result@4
+SET_YPXX.obj : error LNK2001: 无法解析的外部符号 _mysql_store_result@4
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_free_result@4，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_free_result@4
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_row@4，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+LOGIN_SET_CJZH.obj : error LNK2001: 无法解析的外部符号 _mysql_fetch_row@4
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_fetch_row@4
+SET_YPXX.obj : error LNK2001: 无法解析的外部符号 _mysql_fetch_row@4
+LOGIN.obj : error LNK2019: 无法解析的外部符号 _mysql_close@4，该符号在函数 "public: void __thiscall LOGIN::OnBnClickedButton1(void)" (?OnBnClickedButton1@LOGIN@@QAEXXZ) 中被引用
+MyDatabase.obj : error LNK2001: 无法解析的外部符号 _mysql_close@4
+MyDatabase.obj : error LNK2019: 无法解析的外部符号 _mysql_options@12，该符号在函数 "public: bool __thiscall MyDatabase::connect_mydatabase(void)" (?connect_mydatabase@MyDatabase@@QAE_NXZ) 中被引用
+.\lib\libmysql.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\lihongzhao\code\reyuan\reyuan0518\reyuan0518\Debug\reyuan0518.exe : fatal error LNK1120: 8 个无法解析的外部命令

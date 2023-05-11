@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mysql">
+      <UniqueIdentifier>{fc055002-cf85-4116-be67-c2370925aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql\mysql">
+      <UniqueIdentifier>{fba0e5ea-0829-4384-8ccb-9e1552659af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql\mysql\psi">
+      <UniqueIdentifier>{e4a8e886-979c-4253-b544-a43e3670a6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chart_control">
+      <UniqueIdentifier>{8fb04435-2900-416a-a679-8de413838768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USB_cypress">
+      <UniqueIdentifier>{b88d22c1-2c56-43c9-85d7-4f00953c5eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="listbutton">
+      <UniqueIdentifier>{a6260d3a-07f0-4234-ac3d-89b81a062ea6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reyuan0518.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reyuan0518Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reyuan0518View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_POINT_BD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_POINT_QR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_TTBDJG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_XTTXJG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_GZSJSJ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_CKLXJT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_CEWEN_WDCD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_CDBRYSYJG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ACCOUNT_GGMM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA_SJBF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA_SJHF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_YPXX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_SJGS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_JLGS_RY.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_JLGS_XT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_JLGS_JT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ACCOUNT_ZHGL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab_CEWEN_WDCD_SYPC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab_CEWEN_WDCD_YPDL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab_CEWEN_WDCD_SSCWQX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab_DATA_CDBRYSYJG_BZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab_DATA_CDBRYSYJG_CXDY.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\big_endian.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\binary_log_types.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\byte_order_generic.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\byte_order_generic_x86.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\decimal.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\errmsg.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\keycache.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\little_endian.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\m_ctype.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\m_string.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_alloc.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_byteorder.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_command.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_compiler.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_config.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_dbug.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_dir.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_getopt.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_global.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_list.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_sys.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_thread.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_thread_local.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\my_xml.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql_com.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql_com_server.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql_embed.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql_time.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql_version.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysqld_ername.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysqld_error.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\plugin.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\plugin_audit.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\plugin_ftparser.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\plugin_group_replication.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\plugin_keyring.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\plugin_validate_password.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\sql_common.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\sql_state.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\sslopt-case.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\sslopt-longopts.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\sslopt-vars.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\thr_cond.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\thr_mutex.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\thr_rwlock.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\typelib.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\client_authentication.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\client_plugin.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\com_data.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\get_password.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\group_replication_priv.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\innodb_priv.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\mysql_lex_string.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_audit.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_auth.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_auth_common.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_ftparser.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_group_replication.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_keyring.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_trace.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\plugin_validate_password.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_command.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_locking.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_my_plugin_log.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_my_snprintf.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_mysql_alloc.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_mysql_keyring.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_mysql_password_policy.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_mysql_string.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_parser.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_rpl_transaction_ctx.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_rpl_transaction_write_set.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_rules_table.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_security_context.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_srv_session.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_srv_session_info.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_ssl_wrapper.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_thd_alloc.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_thd_engine_lock.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_thd_wait.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\service_thread_scheduler.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\services.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\thread_pool_priv.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\thread_type.h">
+      <Filter>mysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_file.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_idle.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_mdl.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_memory.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_ps.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_socket.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_sp.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_stage.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_statement.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_table.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_thread.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\mysql_transaction.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\psi.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\psi_base.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\mysql\psi\psi_memory.h">
+      <Filter>mysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGIN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ACCOUNT_ZHGL_TJZH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDatabase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quanjv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SHITU_STSZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_CDB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FV_DATA_CDB_RIGHT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGIN_SET.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGIN_SET_CJZH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGIN_SET_DLCL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGIN_SET_TTSZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LOGIN_SET_ZDBF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_YL_JLGS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_YL_JLGS_LEFT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SET_YL_JLGS_RIGHT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ACCOUNT_ZHGL_XGZH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartAxis.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartAxisLabel.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartBalloonLabel.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartBarSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartCandlestickSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartCrossHairCursor.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartCtrl.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartCursor.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartDateTimeAxis.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartDragLineCursor.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartFont.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartGanttSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartGradient.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartGrid.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartLabel.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartLegend.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartLineSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartLogarithmicAxis.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartMouseListener.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartPointsArray.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartPointsSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartScrollBar.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartSerieBase.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartSeriesMouseListener.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartStandardAxis.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartString.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartSurfaceSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartTitle.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\ChartXYSerie.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_control\PointsOrdering.h">
+      <Filter>chart_control</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA_CDB_RIGHT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CyAPI.h">
+      <Filter>USB_cypress</Filter>
+    </ClInclude>
+    <ClInclude Include="usb100.h">
+      <Filter>USB_cypress</Filter>
+    </ClInclude>
+    <ClInclude Include="usb200.h">
+      <Filter>USB_cypress</Filter>
+    </ClInclude>
+    <ClInclude Include="cyioctl.h">
+      <Filter>USB_cypress</Filter>
+    </ClInclude>
+    <ClInclude Include="instrument_self_check.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listbutton\HeaderCtrlCl.h">
+      <Filter>listbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="listbutton\ListCtrlButton.h">
+      <Filter>listbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="listbutton\ListCtrlCl.h">
+      <Filter>listbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="listbutton\ListCtrlEdit.h">
+      <Filter>listbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="SYPC_XZGSP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h6dybgrq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h6tp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h6wb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_tree_h6xd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="reyuan0518.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reyuan0518Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reyuan0518View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_POINT_BD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_POINT_QR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_TTBDJG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_XTTXJG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_GZSJSJ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_CKLXJT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_CEWEN_WDCD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_CDBRYSYJG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ACCOUNT_GGMM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DATA_SJBF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DATA_SJHF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_YPXX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_SJGS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_JLGS_RY.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_JLGS_XT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_JLGS_JT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ACCOUNT_ZHGL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_CEWEN_WDCD_SYPC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_CEWEN_WDCD_YPDL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_CEWEN_WDCD_SSCWQX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_DATA_CDBRYSYJG_BZ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_DATA_CDBRYSYJG_CXDY.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGIN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ACCOUNT_ZHGL_TJZH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDatabase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quanjv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SHITU_STSZ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_CDB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FV_DATA_CDB_RIGHT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGIN_SET.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGIN_SET_CJZH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGIN_SET_DLCL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGIN_SET_TTSZ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOGIN_SET_ZDBF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_YL_JLGS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_YL_JLGS_LEFT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SET_YL_JLGS_RIGHT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ACCOUNT_ZHGL_XGZH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartAxis.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartAxisLabel.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartBarSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartCandlestickSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartCrossHairCursor.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartCtrl.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartCursor.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartDateTimeAxis.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartDragLineCursor.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartFont.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartGanttSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartGradient.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartGrid.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartLegend.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartLineSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartLogarithmicAxis.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartPointsSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartScrollBar.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartStandardAxis.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartSurfaceSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartTitle.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_control\ChartXYSerie.cpp">
+      <Filter>chart_control</Filter>
+    </ClCompile>
+    <ClCompile Include="DATA_CDB_RIGHT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instrument_self_check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="listbutton\HeaderCtrlCl.cpp">
+      <Filter>listbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="listbutton\ListCtrlButton.cpp">
+      <Filter>listbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="listbutton\ListCtrlCl.cpp">
+      <Filter>listbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="listbutton\ListCtrlEdit.cpp">
+      <Filter>listbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="SYPC_XZGSP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h6dybgrq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h6tp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h6wb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_tree_h6xd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="reyuan0518.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\reyuan0518.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="mysql\mysql\client_plugin.h.pp">
+      <Filter>mysql\mysql</Filter>
+    </None>
+    <None Include="mysql\mysql\plugin_audit.h.pp">
+      <Filter>mysql\mysql</Filter>
+    </None>
+    <None Include="mysql\mysql\plugin_auth.h.pp">
+      <Filter>mysql\mysql</Filter>
+    </None>
+    <None Include="mysql\mysql\plugin_ftparser.h.pp">
+      <Filter>mysql\mysql</Filter>
+    </None>
+    <None Include="mysql\mysql\plugin_keyring.h.pp">
+      <Filter>mysql\mysql</Filter>
+    </None>
+    <None Include="mysql\mysql\services.h.pp">
+      <Filter>mysql\mysql</Filter>
+    </None>
+    <None Include="chart_control\ChartBalloonLabel.inl">
+      <Filter>chart_control</Filter>
+    </None>
+    <None Include="chart_control\ChartLabel.inl">
+      <Filter>chart_control</Filter>
+    </None>
+    <None Include="chart_control\ChartPointsArray.inl">
+      <Filter>chart_control</Filter>
+    </None>
+    <None Include="chart_control\ChartSerieBase.inl">
+      <Filter>chart_control</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\reyuan0518Doc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\reyuan0518.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\AK47.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
